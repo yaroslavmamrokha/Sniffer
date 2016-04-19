@@ -1,0 +1,35 @@
+﻿Сборка начата 01.07.2015 3:15:28.
+     1>Проект "C:\Users\El\Documents\Visual Studio 2013\Projects\Sniffer\yaroslav.mamrokha\Sniffer\Sniffer\Sniffer.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp sniffer.cpp
+         main.cpp
+     1>main.cpp(14): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\conio.h(131): см. объявление "getch"
+     1>main.cpp(36): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283): см. объявление "scanf"
+         sniffer.cpp
+     1>sniffer.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): см. объявление "fopen"
+     1>sniffer.cpp(39): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238): см. объявление "gethostbyname"
+     1>sniffer.cpp(50): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): см. объявление "inet_ntoa"
+     1>sniffer.cpp(54): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283): см. объявление "scanf"
+     1>sniffer.cpp(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): см. объявление "fopen"
+     1>sniffer.cpp(189): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): см. объявление "inet_ntoa"
+     1>sniffer.cpp(190): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868): см. объявление "inet_ntoa"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\El\Documents\Visual Studio 2013\Projects\Sniffer\yaroslav.mamrokha\Sniffer\Release\Sniffer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\El\Documents\Visual Studio 2013\Projects\Sniffer\yaroslav.mamrokha\Sniffer\Release\Sniffer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\El\Documents\Visual Studio 2013\Projects\Sniffer\yaroslav.mamrokha\Sniffer\Release\Sniffer.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\sniffer.obj
+         Создание кода
+         Создание кода завершено
+         Sniffer.vcxproj -> C:\Users\El\Documents\Visual Studio 2013\Projects\Sniffer\yaroslav.mamrokha\Sniffer\Release\Sniffer.exe
+     1>Сборка проекта "C:\Users\El\Documents\Visual Studio 2013\Projects\Sniffer\yaroslav.mamrokha\Sniffer\Sniffer\Sniffer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.63

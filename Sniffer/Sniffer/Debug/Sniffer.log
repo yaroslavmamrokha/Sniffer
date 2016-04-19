@@ -1,0 +1,24 @@
+﻿Сборка начата 01.07.2015 2:22:17.
+     1>Проект "C:\Users\El\documents\visual studio 2013\Projects\Sniffer\Sniffer\Sniffer.vcxproj" в узле 2 (целевые объекты ClCompile).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sniffer.cpp
+         sniffer.cpp
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211): см. объявление "fopen"
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(39): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): см. объявление "gethostbyname"
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(50): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): см. объявление "inet_ntoa"
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(54): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283): см. объявление "scanf"
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(170): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211): см. объявление "fopen"
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(185): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): см. объявление "inet_ntoa"
+     1>c:\users\el\documents\visual studio 2013\projects\sniffer\sniffer\sniffer.cpp(186): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): см. объявление "inet_ntoa"
+     1>Сборка проекта "C:\Users\El\documents\visual studio 2013\Projects\Sniffer\Sniffer\Sniffer.vcxproj" завершена (целевые объекты ClCompile).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.37

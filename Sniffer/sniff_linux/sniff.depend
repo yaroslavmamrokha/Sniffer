@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1435707955 source:/home/el/Desktop/main.cpp
+	"Sniffer.h"
+
+1435708151 /home/el/Desktop/Sniffer.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<winsock2.h>
+	<conio.h>
+	<windows.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<linux/if.h>
+	<unistd.h>
+	<netdb.h>
+
+1435708151 source:/home/el/Desktop/sniffer.cpp
+	"Sniffer.h"
+
